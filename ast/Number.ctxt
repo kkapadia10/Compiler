@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Number
+comment0.text=\n\ The\ number\ class\ handles\ the\ numbers.\n\n\ @author\ Kaden\ Kapadia\n\ @version\ March\ 21,\ 2022\n
+comment1.params=val
+comment1.target=Number(int)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Number.\n\ \n\ @param\ val\ the\ value\ being\ evaluated\n
+comment2.params=envir
+comment2.target=int\ eval(environment.Environment)
+comment2.text=\n\ Evaluates\ the\ numbers\ in\ the\ environment.\n\ \n\ @param\ envir\ the\ environment\ that\ evaluates\ the\ expression\n
+comment3.params=e
+comment3.target=void\ compile(emitter.Emitter)
+comment3.text=\n\ Compiles\ the\ number\ by\ storing\ the\ value\ in\ $v0.\n\ \n\ @param\ e\ the\ Emitter\ being\ used\ to\ write\ the\ file.\n
+numComments=4

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=State
+comment0.text=\n\ Same\ as\ the\ code\ for\ ProcedureCall,\ execpt\ using\ the\ execute\ method\ instead\n\ of\ the\ evaluate\ method.\n\n\ @author\ Kaden\ Kapadia\n\ @version\ 4/12/22\n
+comment1.params=s\ l
+comment1.target=State(java.lang.String,\ java.util.List)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ ProcedureCall.\n\ \n\ @param\ str\ the\ procedure\ name\n\ @param\ list\ the\ procedure's\ arguements\n
+comment2.params=envir
+comment2.target=void\ exec(environment.Environment)
+comment2.text=\n\ Gets\ the\ procedure\ then\ evaluates\ the\ arguements\ from\ the\ procedure.\n\ Then,\ executes\ procedure\ call.\ \n\ There\ is\ no\ return\ statement\ in\ this\ method,\ unlike\ in\ ProcedureCall.\n\n\ @throw\ IllegalArguementException\ if\ the\ size\ of\ the\ list\ is\ not\ the\ same\ as\ the\ size\n\ of\ the\ procedure\ declaration.\n\ @param\ \ envir\ the\ environment\ that\ evaluates\ the\ expression\n
+numComments=3

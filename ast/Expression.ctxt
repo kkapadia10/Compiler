@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Expression
+comment0.text=\n\ Abstract\ Expression\ Class\ which\ goes\ through\ expressions.\n\ Goes\ through\ logic,\ arithmetic,\ and\ operations.\n\n\ @author\ Kaden\ Kapadia\n\ @version\ March\ 21,\ 2022\n
+comment1.params=envir
+comment1.target=int\ eval(environment.Environment)
+comment1.text=\n\ Evalues\ expressions\ for\ AST.\n\ \n\ @param\ envir\ the\ environment\ that\ evaluates\ the\ expression\n
+comment2.params=e
+comment2.target=void\ compile(emitter.Emitter)
+comment2.text=\n\ Returns\ an\ error\ message\ if\ the\ subclass\ does\ not\ compile.\n\ \n\ @param\ e\ the\ Emitter\ being\ used\ to\ write\ the\ file.\n\ @throw\ RuntimeException\ error\ if\ the\ subclass\ does\ not\ compile.\ \n
+numComments=3

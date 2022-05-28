@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=ProcedureCall
+comment0.text=\n\ Class\ for\ procedure\ calls\ in\ AST.\ Uses\ the\ procedure\ name\ and\ arguements\ to\ \n\ represent\ a\ procoedure\ call.\n\n\ @author\ Kaden\ Kapadia\n\ @version\ 4/12/22\n
+comment1.params=s\ l
+comment1.target=ProcedureCall(java.lang.String,\ java.util.List)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ ProcedureCall.\n\ \n\ @param\ str\ the\ procedure\ name\n\ @param\ list\ the\ procedure's\ arguements\n
+comment2.params=envir
+comment2.target=int\ eval(environment.Environment)
+comment2.text=\n\ Gets\ the\ procedure\ then\ evaluates\ the\ arguements\ from\ the\ procedure.\n\ Then,\ executes\ procedure\ call.\ \n\n\ @throw\ IllegalArgumentException\ if\ the\ size\ of\ the\ list\ is\ the\ same\ as\ the\ size\n\ of\ the\ procedure\ declaration.\n\ @param\ \ envir\ the\ environment\ that\ evaluates\ the\ expression\n\ @return\ the\ value\ of\ the\ produre\ at\ the\ end\n
+numComments=3

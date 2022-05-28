@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=While
+comment0.text=\n\ The\ while\ class\ handles\ while\ statements.\ \n\n\ @author\ Kaden\ Kapadia\n\ @version\ March\ 23,\ 2022\n
+comment1.params=conditional\ start
+comment1.target=While(Conditional,\ Statement)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ While.\n\ \n\ @param\ conditional\ the\ conditional\ statement\n\ @param\ start\ the\ statement\ in\ the\ while\n
+comment2.params=envir
+comment2.target=void\ exec(environment.Environment)
+comment2.text=\n\ Executes\ a\ while\ statement\ by\ making\ sure\ the\ conditional\ is\ met.\n\ If\ the\ conditional\ is\ met,\ the\ while\ statement\ is\ executed.\n\ \n\ @param\ envir\ the\ environment\ that\ evaluates\ the\ expression\n
+comment3.params=e
+comment3.target=void\ compile(emitter.Emitter)
+comment3.text=\n\ Compiles\ while\ loop\ by\ creating\ a\ unique\ label\ ID.\ \n\ Then\ compiles\ the\ conditional\ and\ statement.\ Then\ jumps\n\ to\ the\ top\ of\ the\ while\ and\ reevaluates\ the\ condition.\ \n\ If\ the\ condition\ is\ true,\ the\ loop\ will\ continue;\ if\ the\ loop\ is\ false,\n\ the\ program\ willj\ jump\ to\ the\ endwhile.\ \n\ \n\ @param\ e\ the\ Emitter\ being\ used\ to\ write\ the\ file\n
+numComments=4

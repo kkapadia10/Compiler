@@ -1,0 +1,55 @@
+#BlueJ class context
+comment0.target=Scanner
+comment0.text=\n\ Scanner\ is\ a\ simple\ scanner\ for\ Compilers\ and\ Interpreters\ \n\ (2014-2015)\ lab\ exercise\ 1.\ In\ this\ lab,\ we\ parsed\ through\ a\ file\n\ and\ outputted\ the\ specific\ token\ associated\ with\ each\ character\ in\ the\ file.\n\ For\ example,\ we\ examined\ digits,\ letters,\ operands,\ and\ whitespace.\ \n\ Additionally,\ we\ checked\ if\ we\ reached\ the\ end\ of\ the\ line\ or\ end\ of\ the\ file\n\ and\ returned\ EOL\ and\ EOF,\ respectively.\n\n\ @author\ Kaden\ Kapadia\n\ @author\ Anu\ Datar\n\ @version\ January\ 27,\ 2022\n\n\ Usage\:\ Provide\ some\ input\ text\ for\ the\ scanner.\ The\ scanner\ will\ parse\ \n\ through\ it\ (line\ by\ line)\ and\ will\ then\ output\ the\ various\ lexemes\ \n\ in\ the\ input\ text.\n\n
+comment1.params=inStream
+comment1.target=Scanner(java.io.InputStream)
+comment1.text=\n\ Scanner\ constructor\ for\ construction\ of\ a\ scanner\ that\ \n\ uses\ an\ InputStream\ object\ for\ input.\ \ \n\ Usage\:\ \n\ FileInputStream\ inStream\ \=\ new\ FileInputStream(new\ File(file\ name);\n\ Scanner\ lex\ \=\ new\ Scanner(inStream);\n\ @param\ inStream\ the\ input\ stream\ to\ use\n
+comment10.params=input
+comment10.target=boolean\ isDoubleOperator(char)
+comment10.text=\n\ Checks\ if\ the\ inputted\ character\ is\ an\ operand\ that\ can\ be\ a\n\ two\ character\ operator\ (used\ consecutively,\ ex\:\ \=\=).\n\n\ @param\ input\ the\ character\ to\ be\ checked\n\ @return\ true\ if\ the\ given\ character\ is\ an\ operator\ \n\ \ \ \ \ \ \ \ \ \ \ \ \ \ that\ can\ be\ consecutively\ used;\ otherwise,\n\ \ \ \ \ \ \ \ \ false\n
+comment11.params=input
+comment11.target=boolean\ endOfLine(char)
+comment11.text=\n\ Checks\ if\ we\ are\ at\ the\ end\ of\ the\ line.\n\n\ @param\ input\ the\ character\ to\ be\ checked\n\ @return\ true\ if\ we\ are\ at\ the\ end\ of\ the\ line;\ otherwise,\n\ \ \ \ \ \ \ \ \ \ false\n
+comment12.params=input
+comment12.target=boolean\ endOfFile(char)
+comment12.text=\n\ Checks\ if\ we\ are\ at\ the\ end\ of\ the\ file\ being\ checked.\n\n\ @param\ input\ the\ character\ to\ be\ checked\n\ @return\ true\ if\ we\ are\ at\ the\ end\ of\ the\ file;\ otherwise,\n\ \ \ \ \ \ \ \ \ \ false\n
+comment13.params=
+comment13.target=java.lang.String\ scanNumber()
+comment13.text=\n\ Scans\ a\ number\ using\ its\ regex\ definition\:\ digit(digit)*.\n\ @return\ the\ number\ being\ read\ in\ string\ form\n\ @throws\ ScanErrorException\ thrown\ if\ not\ a\ number\n
+comment14.params=
+comment14.target=java.lang.String\ scanIdentifier()
+comment14.text=\n\ Scans\ an\ identifier\ using\ its\ regex\ definition\:\ letter(letter|digit)*.\n\ @return\ the\ identifier\ being\ read\ in\n\ @throws\ ScanErrorException\ thrown\ if\ not\ an\ identifier\n
+comment15.params=
+comment15.target=java.lang.String\ scanOperand()
+comment15.text=\n\ Scans\ an\ operand\ using\ its\ regex\ definition\:\ [+,\ -\ ,\ *,\ /,\ %,\ \=,\ <,\ >].\n\ @return\ the\ operand\ being\ read\ in\n\ @throws\ ScanErrorException\ thrown\ if\ not\ an\ operand\n
+comment16.params=
+comment16.target=void\ scanInLineComments()
+comment16.text=\n\ Scans\ an\ in\ line\ comment\ by\ eating\ every\ \n\ subsequent\ character\ from\ the\ line.\n\n\ @throws\ ScanErrorException\n
+comment17.params=
+comment17.target=java.lang.String\ nextToken()
+comment17.text=\n\ Parses\ through\ the\ given\ file\ while\ figuring\ out\ \n\ the\ type\ of\ token\ presented.\ Based\ on\ that,\ it\ returns\ \n\ the\ specific\ token.\ Removes\ in\ line\ comments\ and\ determines\n\ where\ the\ end\ of\ the\ line\ and\ end\ of\ the\ file\ are.\n\n\ @return\ the\ tokens\ scanned\ through\n
+comment2.params=inString
+comment2.target=Scanner(java.lang.String)
+comment2.text=\n\ Scanner\ constructor\ for\ constructing\ a\ scanner\ that\ \n\ scans\ a\ given\ input\ string.\ \ It\ sets\ the\ end-of-file\ flag\ an\ then\ reads\n\ the\ first\ character\ of\ the\ input\ string\ into\ the\ instance\ field\ \n\ currentChar.\ Usage\:\ Scanner\ lex\ \=\ new\ Scanner(input_string);\n\ @param\ inString\ the\ string\ to\ scan\n
+comment3.params=
+comment3.target=void\ getNextChar()
+comment3.text=\n\ Gets\ the\ next\ character\ of\ the\ input.\n
+comment4.params=expected
+comment4.target=void\ eat(char)
+comment4.text=\n\ Checks\ whether\ currentChar\ and\ the\ parameter\ are\ equal.\n\ @param\ expected\ the\ character\ currentChar\ is\ being\ compared\ to\n\ @throws\ ScanErrorException\ thrown\ if\ there\ is\ a\ file-reading\ error\n
+comment5.params=
+comment5.target=boolean\ hasNext()
+comment5.text=\n\ Checks\ if\ there\ are\ more\ characters\ to\ be\ parsed\ in\ the\ file.\n\ @return\ true\ if\ there\ are\ more\ characters\ in\ the\ file;\ otherwise,\n\ \ \ \ \ \ \ \ \ \ false\n
+comment6.params=input
+comment6.target=boolean\ isDigit(char)
+comment6.text=\n\ Checks\ if\ the\ given\ character\ is\ a\ digit\ (0-9).\n\ @param\ input\ the\ character\ to\ be\ checked\n\ @return\ true\ if\ the\ given\ character\ is\ a\ digit;\ otherwise,\n\ \ \ \ \ \ \ \ \ \ false\n
+comment7.params=input
+comment7.target=boolean\ isLetter(char)
+comment7.text=\n\ Checks\ if\ the\ given\ character\ is\ a\ letter,\ without\ regard\ to\ case\n\ @param\ input\ the\ character\ to\ be\ checked\n\ @return\ true\ if\ the\ given\ character\ is\ a\ letter;\ otherwise,\n\ \ \ \ \ \ \ \ \ \ false\n
+comment8.params=input
+comment8.target=boolean\ isWhiteSpace(char)
+comment8.text=\n\ Checks\ if\ the\ given\ character\ is\ a\ whitespace.\n\ @param\ input\ the\ character\ to\ be\ checked\n\ @return\ true\ if\ the\ given\ character\ is\ a\ white\ space;\ otherwise,\n\ \ \ \ \ \ \ \ \ \ false\n
+comment9.params=input
+comment9.target=boolean\ isOperand(char)
+comment9.text=\n\ Checks\ if\ the\ given\ character\ is\ an\ operand.\n\n\ @param\ input\ the\ character\ to\ be\ checked\n\ @return\ true\ if\ the\ given\ character\ is\ an\ operand;\ otherwise,\n\ \ \ \ \ \ \ \ \ \ false\n
+numComments=18

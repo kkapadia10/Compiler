@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=ScannerTester
+comment0.text=\n\ Tests\ the\ scanner\ class.\n\n\ @author\ Kaden\ Kapadia\n\ @version\ January\ 27,\ 2022\n\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\n\ Tests\ the\ scanner\ class.\n
+numComments=2

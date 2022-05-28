@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Conditional
+comment0.text=\n\ Conditional\ class\ evaluates\ conditional\ expressions.\n\n\ @author\ Kaden\ Kapadia\n\ @version\ March\ 23,\ 2022\n
+comment1.params=op\ s1\ s2
+comment1.target=Conditional(java.lang.String,\ Expression,\ Expression)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Conditional.\n\ \n\ @param\ op\ the\ conditional\ operator\n\ @param\ s1\ the\ expression\ to\ the\ left\ of\ the\ conditional\n\ @param\ s2\ the\ expression\ to\ the\ right\ of\ the\ conditional\n
+comment2.params=envir
+comment2.target=int\ eval(environment.Environment)
+comment2.text=\n\ Evaluates\ a\ conditional\ statement.\n\ \n\ @param\ envir\ the\ environment\ that\ evaluates\ the\ expression\n\ @return\ 1\ if\ there\ is\ a\ conditional;\ 0,\ otherwise.\n
+comment3.params=e\ vLab
+comment3.target=void\ compile(emitter.Emitter,\ java.lang.String)
+comment3.text=\n\ Compiles\ a\ conditional\ by\ evaluating\ the\ first\ expression.\n\ Then\ pushes\ that\ first\ expression\ onto\ the\ stack.\n\ Evaluates\ the\ second\ expression\ and\ stores\ the\ first\ into\ a\ temp\ variable.\n\ \n\ If\ the\ condition\ if\ false,\ the\ program\ jumps\ to\ vLab.\ \n\ \n\ conditional\ statement\n\ @param\ vLab\ the\ label\ to\ jump\ to\ if\ the\ condition\ is\ false\n
+numComments=4

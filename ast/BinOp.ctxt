@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=BinOp
+comment0.text=\n\ Handles\ binary\ operations.\ Evaluates\ expressions\ that\ \n\ contain\ binary\ operations.\n\n\ @author\ Kaden\ Kapadia\n\ @version\ March\ 21,\ 2022\n
+comment1.params=op\ f\ s
+comment1.target=BinOp(java.lang.String,\ Expression,\ Expression)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ BinOp.\n\ \n\ @param\ op\ the\ operator\ in\ the\ expression\n\ @param\ f\ the\ first\ part\ of\ the\ expression\n\ @param\ s\ the\ second\ part\ of\ the\ expression\n
+comment2.params=envir
+comment2.target=int\ eval(environment.Environment)
+comment2.text=\n\ Evaluates\ the\ binary\ operations\ in\ the\ expression\ \n\ and\ produces\ another\ value.\n\ \n\ @param\ envir\ the\ environment\ that\ evaluates\ the\ expression\n
+comment3.params=e
+comment3.target=void\ compile(emitter.Emitter)
+comment3.text=\n\ Compiles\ a\ binary\ operation\ by\ compiling\ from\ left\ to\ right.\n\ As\ the\ code\ goes\ from\ left\ to\ right,\ puts\ the\ operation\ on\ the\ stack.\ \n\ \n\ @param\ e\ the\ Emitter\ being\ used\ to\ write\ the\ file\n
+numComments=4

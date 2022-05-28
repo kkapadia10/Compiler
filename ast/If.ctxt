@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=If
+comment0.text=\n\ Handles\ if\ comments\ in\ AST.\ \n\n\ @author\ Kaden\ Kapadia\n\ @version\ March\ 23,\ 2022\n
+comment1.params=condit\ f\ s
+comment1.target=If(Conditional,\ Statement,\ Statement)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ If.\n\ This\ is\ used\ when\ the\ if\ method\ call\ has\ tree\ parameters.\n\ \n\ @param\ condit\ the\ conditional\ statement\n\ @param\ f\ the\ statement\ being\ executed\ if\ the\ conditional\ is\ true\n\ @param\ s\ the\ statement\ being\ executed\ if\ the\ conditional\ is\ false\n
+comment2.params=condit\ f
+comment2.target=If(Conditional,\ Statement)
+comment2.text=\n\ Constructor\ for\ objects\ of\ class\ If.\n\ This\ is\ used\ when\ the\ if\ method\ call\ has\ two\ parameters.\n\ \n\ @param\ condit\ the\ statement\ being\ executed\ if\ the\ conditional\ is\ true\n\ @param\ f\ the\ statement\ being\ executed\ if\ the\ conditional\ is\ false\ \n
+comment3.params=envir
+comment3.target=void\ exec(environment.Environment)
+comment3.text=\n\ Executes\ if\ statements\ in\ the\ environment\ and\ decides\ if\ the\ \n\ true\ or\ false\ statement\ should\ be\ executed.\n\ \n\ @param\ envir\ the\ environment\ that\ evaluates\ the\ expression\n
+comment4.params=e
+comment4.target=void\ compile(emitter.Emitter)
+comment4.text=\n\ Compiles\ the\ if\ by\ compiling\ the\ condition\ statement.\ \n\ If\ the\ condition\ is\ met,\ the\ program\ jumps\ to\ the\ if.\ \n\ Otherwise,\ the\ program\ jumps\ to\ the\ else\ if.\n\ \n\ @param\ e\ the\ Emitter\ being\ used\ to\ write\ the\ file\n
+numComments=5

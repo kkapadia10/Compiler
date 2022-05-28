@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Emitter
+comment0.text=\n\ Emitter\ class\ converts\ the\ code\ into\ assembly/MIPS\ code.\ \n\n\ @author\ Kaden\ Kapadia\n\ @version\ 5/9/22\n
+comment1.params=outputFileName
+comment1.target=Emitter(java.lang.String)
+comment1.text=\n\ Constructor\ for\ objects\ of\ the\ Emitter\ class.\ \n\ @param\ outputFileName\ the\ output\ file\ where\ the\ code\ is\ written\n
+comment2.params=cg
+comment2.target=void\ emit(java.lang.String)
+comment2.text=\n\ Prints\ a\ line\ of\ code\ to\ the\ new\ code\ file.\n
+comment3.params=
+comment3.target=void\ newline()
+comment3.text=\n\ Creates\ a\ new\ line.\ \n
+comment4.params=
+comment4.target=void\ close()
+comment4.text=\n\ Closes\ the\ file.\n
+comment5.params=reg
+comment5.target=void\ emitPush(java.lang.String)
+comment5.text=\n\ Pushes\ the\ reg\ value\ onto\ the\ stack.\n
+comment6.params=reg
+comment6.target=void\ emitPop(java.lang.String)
+comment6.text=\n\ Pops\ the\ top\ value\ from\ the\ stack\ to\ reg.\ \n
+comment7.params=
+comment7.target=int\ nextLabelID()
+comment7.text=\n\ Returns\ a\ unique\ label\ ID\ for\ a\ conditional.\n\ This\ prevents\ conditionals\ from\ having\ the\ same\ call.\ \n\ \n\ @return\ a\ unique\ label\ ID\ for\ each\ conditional\n
+numComments=8

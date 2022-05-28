@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Program
+comment0.text=\n\ Program\ class\ for\ AST.\ This\ class\ outlines\ an\ object\ for\ AST.\n\n\ @author\ Kaden\ Kapadia\n\ @version\ April\ 12,\ 2022\n
+comment1.params=procs\ s\ vars
+comment1.target=Program(java.util.List,\ Statement,\ java.util.List)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Program\n
+comment2.params=envir
+comment2.target=void\ exec(environment.Environment)
+comment2.text=\n\ Executes\ all\ the\ objects\ from\ the\ environment.\n\ \n\ @param\ envir\ the\ environment\ being\ evaluated\n
+comment3.params=filename
+comment3.target=void\ compile(java.lang.String)
+comment3.text=\n\ Sends\ the\ program\ to\ the\ mips\ file.\ \n\ \n\ @param\ filename\ the\ filename\ being\ used\ for\ the\ output\ file\n
+numComments=4

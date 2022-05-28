@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=ProcedureDeclaration
+comment0.text=\n\ Class\ for\ procedure\ declarations\ in\ AST.\ Uses\ the\ procedure\ name,\n\ statement\ call,\ and\ arguements\ to\ represetn\ a\ procedure\ declaration.\n\ represent\ a\ procoedure\ call.\n\n\ @author\ Kaden\ Kapadia\n\ @version\ 4/12/22\n
+comment1.params=name\ l\ s
+comment1.target=ProcedureDeclaration(java.lang.String,\ java.util.List,\ Statement)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ ProcedureDeclaration.\n\ \n\ @param\ str\ the\ procedure\ name\n\ @param\ list\ the\ procedure's\ arguements\n\ @param\ stmt\ the\ procedure's\ statement\ call\n
+comment2.params=
+comment2.target=java.util.List\ getList()
+comment2.text=\n\ Returns\ the\ list\ used\ in\ the\ procedure.\n\ \n\ @return\ list\ list\ used\ in\ the\ procedure\n
+comment3.params=
+comment3.target=Statement\ getStatement()
+comment3.text=\n\ Returns\ the\ statement\ used\ in\ the\ procedure.\n\ \n\ @return\ stmt\ the\ statement\ used\ in\ the\ procedure\n
+comment4.params=envir
+comment4.target=void\ exec(environment.Environment)
+comment4.text=\n\ Executes\ the\ procedure.\n\ \n\ @param\ envir\ the\ environment\ that\ evaluates\ the\ expression\n
+numComments=5
